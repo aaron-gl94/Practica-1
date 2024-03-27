@@ -10,8 +10,8 @@ import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import com.academia.practica1.domain.exceptions.FileExceptions;
 import com.academia.practica1.domain.interfaces.IValidator;
-import com.academia.practica1.infrastructure.FileExceptions;
 
 // import lombok.extern.slf4j.Slf4j; @Slf4j
 

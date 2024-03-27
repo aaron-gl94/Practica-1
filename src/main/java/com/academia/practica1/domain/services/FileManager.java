@@ -1,12 +1,12 @@
 package com.academia.practica1.domain.services;
 
+import java.util.Arrays;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.util.Arrays;
-
+import com.academia.practica1.domain.exceptions.FileExceptions;
 import com.academia.practica1.domain.interfaces.IManagerFile;
-import com.academia.practica1.infrastructure.FileExceptions;
 
 import lombok.extern.slf4j.Slf4j;
 
